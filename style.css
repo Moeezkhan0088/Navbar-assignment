@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+body{ 
+    margin: 0px;
+}
+
+.left img {
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    margin: 20px 10px; /* Adjust margin as needed */
+    vertical-align: middle; /* Align the image vertically with text */
+}
+
+.left h3 {
+    display: inline-block;
+    vertical-align: middle; /* Align the heading vertically with the image */
+    margin: 0; /* Reset margin to avoid unexpected spacing */
+}
+
+.mid {
+    text-align: center;
+    margin: 15px 0; /* Adjust margin as needed */
+    padding: 9px 6px;
+}
+
+.navbar {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block; /* Change to inline-block to ensure it respects margin and padding */
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: rgb(4, 8, 12);
+    text-decoration: none;
+    padding: 8px 17px;
+    font-size: 18px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+header {
+    /* background-color:  #fc9722; */
+}
+.backgroundimage1{
+    background-image: url(./images/pexels-abet-llacer-919734.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    height: 500px;
+    font-size: 30px;
+}
+.backgroundimage2{
+    background-image: url(./images/pexels-anni-roenkae-5069889.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    height: 500px;
+    font-size: 30px;
+
+}
